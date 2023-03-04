@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+   
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    height:100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+padding:25px;
+}
+
+.sidebar nav li{
+     list-style: none;
+     font-size:20px;
+     padding: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-size:25px;
+ color: white;
+
+}
+.moreabout{
+    font-size:2em;
+    margin-top: 19pxx;
+    color:white;
+}
+.main{
+/*background-color: yellow;*/
+width:90vw
+
+}
+.container{
+    display:flex
+}
+.infocontainer{
+    /*background-color: green;*/
+    height: 58vh;
+    width: 80 vw;
+    margin:144px auto;
+    justify-content: space-around;
+    display:flex;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0%;
+   
+    font-family: 'Kanit', sans-serif;
+
+}
+.hello{
+font-size:3em;
+color:white;
+}
+.name{
+font-weight: bold;
+font-size:3em;
+color: red;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+font-size:2.5em;
+color:white;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size:16px;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn{
+    padding:9px 14px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(50, 219, 92);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 3px 3 px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: rgb(50, 219, 92);
+    background-color: white;
+
+}
+.devpic img{
+    height:62vh;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans',sans-serif;
+    margin:50px 88px;
+    color:white;
+}
+.contactform h1{
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10 88px;
+
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.contactform form div input{
+    margin: 0 40px;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.blogItem{
+    color:white;
+    margin:20px;
+    font-family: 'Fira Sans',sans-serif;
+}
+.blogcontainer{
+    margin:10px 88px;
+    color:white;
+}
+ h1{
+    font-family: 'Fira Sans',sans-serif;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro{
+    margin :10px 88px;
+    color:white;
+}
+.intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin :12px;
+}
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.skill{
+width:265px;
+height: 6px;
+background-color: red;
+border:2px solid black;
+}
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+
+}
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+.ts{
+    width: 200px;
+    background-color: yellow;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left:10px;
+}
+.ham{
+    margin-left:10px;
+    margin-top: 10px;
+}
+.cross{
+    margin-left:112px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+        position: absolute;
+}
+@media(max-width: 712px){
+   
+   /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+   */
+   .buttons{
+    font-size: 6px;
+   } 
+   .devinfo{
+    font-size: 10px;
+   }
+   .devpic{
+    display: none;
+   }
+   .intro ,.blogcontainer,.contactform{
+    margin:50px 8px;
+   }
+}
+.certificate{
+
+    padding-right: 1%;
+    padding-left: 8%;
+    }
+.certificate h1{
+
+   text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    padding: 50% 0 0 50;
+    text-align: center; 
+    color:chartreuse;  
+    background-color:white;
+}
+.certificate img{
+    padding: 35px;
+    align-content: center;
+    padding-left: 35%;
+    /* padding-right: 30%; */
+   
+}
+.intro p{
+    font-size:17px;
+}
+.pa {
+padding-top: 10%;
+}
